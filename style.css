@@ -1,0 +1,153 @@
+#navbar{
+    border: 20px solid none;
+    color: black;
+    background-color: white;
+    padding: 50px;
+
+}
+
+#pages{
+    padding-top: 10px;
+    padding-left: 90px;
+    display: flex;
+    justify-content: around;
+   align-items: center;
+   gap: 30px;
+
+}
+.logo>img{
+    padding: 10px;
+}
+.logo{
+    padding: 10px;
+    padding-left: 20px;
+    margin-left: 30px;
+}
+
+#crimson{
+    color: rgba(255, 81, 81, 1);
+}
+
+.icons{
+    display: flex;
+    gap: 50px;
+    margin-right: 80px;
+
+}
+.box{
+    width: 1500px;
+    height: 600px;
+    border: 1px solid none;
+    color:#fbdcd1;
+    background-color: #fbdcd1;
+    border-radius: 20px;
+    margin: 0px 30px;
+    display: flex;
+}
+#ellipse{
+    width:25px;
+    height: 25px;
+    border: 1px solid  #ff5e3a;
+    border-radius: 50%;
+    position: relative;
+    background-color: #ff5e3a;
+    top: 176px;
+    right: 133px;
+}
+
+
+#cart-girl{
+    position : relative;
+    display:flex;
+    justify-content: right;
+    bottom:60px;
+    left: 313px;
+}
+
+.content>button{
+    font-size: 15px;
+    padding: 20px 55px;
+   margin-top: 50px;
+    border: 1px solid #ff6b53;
+    border-radius: 7px;
+    color: white;
+    background-color: #ff6b53;
+    box-shadow: 20px  #ff6b53;
+}
+
+
+.content{
+    color:black;
+    position : relative;
+    left: 100px;
+    top: 100px;
+    margin: 20px;
+    font-size: 20px;
+}
+
+.content>h1{
+    font-family: 'Aclonica', sans-serif;
+    font-weight: 400; 
+    font-size: 130px;
+    font-stretch: extra-expanded;
+}
+
+.collection-component{
+    margin-top: 70px;
+}
+.headings{
+    text-align: center;
+}
+.category-buttons{
+    display:flex;
+    justify-content: center;
+    margin: 50px;
+    gap: 90px;
+}
+
+.category-buttons>button{
+    box-shadow: 3px 4px 3px 3px #f7f7f7;
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color: white;
+    font-display: bold;
+    padding: 10px 10px;
+    text-color: 4f5665;
+
+
+    }
+   .category-buttons>#crimson-button{
+    box-shadow: 1px 1px 1px 1px #be7469;
+    border: 1px solid  #ff6b53;
+    color:#f7f7f7;
+    background-color:#ff6449;
+    font-display: bold;
+    padding: 10px 10px;
+    }
+
+    .container{
+        padding-top: 50px;;
+        height: 470px;
+        display: flex;
+        justify-content: center;
+        
+    }
+
+    .star{
+        color:#ff5e3a;
+        display: flex;
+        position: relative;
+        left: 170px;
+        top: -20px;
+    }
+
+    #acc-one>img{
+        padding: 40px;
+        background-color: #fbded0;
+    }
+  #btn{
+        border: 1px solid #ff5e3a;
+        border-radius: 5px;
+        background-color: #ff5e3a;
+      padding: 0px 15px;
+    }
